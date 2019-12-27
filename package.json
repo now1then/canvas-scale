@@ -1,0 +1,37 @@
+{
+  "name": "canvas-scale",
+  "license": "MIT",
+  "version": "1.0.6",
+  "description": "采用Canvas绘制的一个可配置的刻度(尺)组件",
+  "main": "lib/scale.js",
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "nowthen",
+    "email": "rnlvwyx@gmail.com"
+  },
+  "repository": "git@github.com:now1then/canvas-scale.git",
+  "bugs": "https://github.com/now1then/canvas-scale/issues",
+  "homepage": "https://github.com/now1then/canvas-scale",
+  "keywords": [
+    "canvas-scale",
+    "scale",
+    "@vue/CLI3",
+    "nowthen",
+    "now1then"
+  ],
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name canvas-scale ./lib/scale.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.10",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.16.0"
+  }
+}
